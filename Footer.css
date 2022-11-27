@@ -1,0 +1,11 @@
+
+.footer{background-color: rgba(140, 126, 133, 0.12);
+display: grid;
+grid-template-rows: 50px;
+grid-template-columns: repeat(7,1fr);
+}
+.logo{
+justify-content: center;
+display: flex;
+align-items: center;
+}

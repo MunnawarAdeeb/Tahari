@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Header{background-color: rgba(140, 126, 133, 0.12);
+   
+    display: grid;
+    grid-template-columns: 60% repeat(6,1fr);
+    grid-template-rows: 60px;
+}
+.Content{display:flex;justify-content: center;align-items: center;}
+.Logo{display: flex;align-items: center;margin-left: 6%;}
+/* button{background-color:rgba(61, 217, 0, 0.12);padding: 2px 5px;} */
